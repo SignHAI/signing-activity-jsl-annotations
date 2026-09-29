@@ -1,0 +1,7 @@
+recording_id,display_id,annotation_file,corpus_video_filename,left_participant_id,right_participant_id
+FO_09_10_AniN,Ani1,annotations/eaf/FO_09_10_AniN.eaf,FO_09_10_AniN.mp4,FO_10,FO_09
+IS_09_10_Cur,Cur1,annotations/eaf/IS_09_10_Cur.eaf,IS_09_10_Cur.mp4,IS_10,IS_09
+NS_11_12_Pro,Pro1,annotations/eaf/NS_11_12_Pro.eaf,NS_11_12_Pro.mp4,NS_12,NS_11
+IK_01_02_AniN,Ani2,annotations/eaf/IK_01_02_AniN.eaf,IK_01_02_AniN.mp4,IK_02,IK_01
+IK_05_06_Cur,Cur2,annotations/eaf/IK_05_06_Cur.eaf,IK_05_06_Cur.mp4,IK_06,IK_05
+IK_03_04_Pro,Pro2,annotations/eaf/IK_03_04_Pro.eaf,IK_03_04_Pro.mp4,IK_04,IK_03

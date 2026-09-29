@@ -1,0 +1,103 @@
+# Accidental-commit safeguards only: review files, diffs, and Git history too.
+# Keep restricted inputs outside this repository. Ignoring does not untrack files.
+# Approved public CSV and EAF files must remain trackable.
+
+# Users supply their own media here. Track only the two language guides.
+/movies/*
+!/movies/README.md
+!/movies/README_ja.md
+
+# Video
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+*.[mM]4[vV]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+*.[mM][tT][sS]
+*.[mM]2[tT][sS]
+*.[vV][oO][bB]
+*.[wW][mM][vV]
+*.[fF][lL][vV]
+*.3[gG][pP]
+
+# Audio
+*.[wW][aA][vV]
+*.[mM][pP]3
+*.[mM]4[aA]
+*.[aA][aA][cC]
+*.[fF][lL][aA][cC]
+*.[oO][gG][gG]
+*.[oO][pP][uU][sS]
+*.[aA][iI][fF]
+*.[aA][iI][fF][fF]
+*.[wW][mM][aA]
+*.[pP][cC][mM]
+
+# Images and extracted frames. Review any future public artwork explicitly.
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+*.[gG][iI][fF]
+*.[bB][mM][pP]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[wW][eE][bB][pP]
+*.[hH][eE][iI][cC]
+
+# Archives and backups
+*.[zZ][iI][pP]
+*.[tT][aA][rR]
+*.[tT][gG][zZ]
+*.[gG][zZ]
+*.[bB][zZ]2
+*.[xX][zZ]
+*.7[zZ]
+*.[rR][aA][rR]
+*.[zZ][sS][tT]
+*.[bB][aA][kK]
+*.backup
+*.old
+*~
+
+# Restricted inputs and internal working directories, at any depth
+corpus/
+raw/
+private/
+internal/
+deliveries/
+backups/
+local_data/
+scratch/
+tmp/
+temp/
+
+# Environment, credentials, caches, and local editor/ELAN preferences
+.env
+.env.*
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.aws/
+.ssh/
+credentials.json
+credentials.*.json
+*.pem
+*.key
+.idea/
+.vscode/
+*.swp
+*.swo
+*.pfsx
+.DS_Store
+._*
+Thumbs.db
